@@ -1,0 +1,32 @@
+[
+	{
+		"ename":"Shreya", 
+		"eid":13683,
+		"esalary":10000 
+	},
+	{ 
+		"ename":"Sri",
+		"eid":13678, 
+		"esalary":12000
+	},
+	{ 
+		"ename":"rahul",
+		"eid":13661, 
+		"esalary":12000
+	},
+	{ 
+		"ename":"ravi",
+		"eid":13278, 
+		"esalary":12000
+	},
+	{ 
+		"ename":"ramya",
+		"eid":13478, 
+		"esalary":12000
+	},
+	{ 
+		"ename":"reena",
+		"eid":13678, 
+		"esalary":12000
+	}
+]

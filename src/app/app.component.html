@@ -1,0 +1,16 @@
+<button (click)="employeeData()"> Click for employee information</button><br/><br/>
+<input type="text" [(ngModel)]="queryString" id="search" placeholder="Search to type">           
+<table class="table table-striped" >
+	<thead class= "thead-inverse">
+      <tr>
+			<th>Employee Name </th>
+			<th>Employee Id </th>
+			<th>Employee Salary</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let item of result | FilterPipe: queryString">
+			<td>{{item.ename}}</td>
+			<td>{{item.eid}}</td>
+			<td>{{item.esalary}}</td>
+	</tr>
+</table>
